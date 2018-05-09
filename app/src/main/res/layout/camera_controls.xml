@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/picture_preview"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_facing_change" />
+        <TextView
+            android:id="@+id/recapture"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="重拍"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/captureButton"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_capture" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/captureSuc"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_capture_done"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_camera_close" />
+
+    </FrameLayout>
+
+</LinearLayout>

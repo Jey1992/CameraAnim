@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainContainer"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <View
+        android:id="@+id/pop_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_FFFFFF"
+        android:visibility="gone"/>
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/iv_share_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="fitXY"/>
+
+        <include layout="@layout/tint_cover_view"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

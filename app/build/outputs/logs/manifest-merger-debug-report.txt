@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [com.jakewharton:butterknife:8.7.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/824e022d41c65304dbace2a379cd3916/AndroidManifest.xml:2:1-7:12
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/jey/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.2.aar/a32f3d83a8dc56ae1cbd82ea90a7184b/AndroidManifest.xml:2:1-12:12
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4665ae51ec1a3e4f61a15cddf1424a1e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/fc758f3115fd1a5b7f944fb928830a94/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:exifinterface:27.0.2] /Users/jey/.gradle/caches/transforms-1/files-1.1/exifinterface-27.0.2.aar/1022efbd708180740f3b2165a304a699/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6359fd603bdd13e976aba1be8cf820a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f8373aeab3170b2109ccdcf77b563ae7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b76829275ac28f211d96239c0b375119/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/99f2bbc92fc4a75724c72c53a4ff635e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/4f77002ff5c219e451385736491aefef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e04b60c1f4b356bfd25d5a53284698cc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dc24d3604e02a874aab66c886bbb1dfa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/6f4f26dea75e82c9337f76734ced88fa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6917284a6917023e150076691f688f2e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ee1fafc5bebfa38668f4a99701019778/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:7:5-75
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:7:22-72
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:9:5-81
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:10:5-81
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:10:22-77
+application
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:12:5-29:19
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:25:5-20
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/fc758f3115fd1a5b7f944fb928830a94/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/fc758f3115fd1a5b7f944fb928830a94/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:17:9-54
+	android:icon
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:19:9-40
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:13:9-38
+activity#cn.jey1016.cameraanim.MainActivity
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:20:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:24:27-74
+activity#cn.jey1016.cameraanim.CameraActivity
+ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:27:9-28:51
+	android:theme
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml:27:19-49
+uses-sdk
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+MERGED from [com.jakewharton:butterknife:8.7.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/824e022d41c65304dbace2a379cd3916/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.7.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/824e022d41c65304dbace2a379cd3916/AndroidManifest.xml:5:5-43
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/jey/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.2.aar/a32f3d83a8dc56ae1cbd82ea90a7184b/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/jey/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.2.aar/a32f3d83a8dc56ae1cbd82ea90a7184b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:6:5-8:41
+MERGED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4665ae51ec1a3e4f61a15cddf1424a1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4665ae51ec1a3e4f61a15cddf1424a1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/fc758f3115fd1a5b7f944fb928830a94/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/fc758f3115fd1a5b7f944fb928830a94/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:exifinterface:27.0.2] /Users/jey/.gradle/caches/transforms-1/files-1.1/exifinterface-27.0.2.aar/1022efbd708180740f3b2165a304a699/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.0.2] /Users/jey/.gradle/caches/transforms-1/files-1.1/exifinterface-27.0.2.aar/1022efbd708180740f3b2165a304a699/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6359fd603bdd13e976aba1be8cf820a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6359fd603bdd13e976aba1be8cf820a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f8373aeab3170b2109ccdcf77b563ae7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f8373aeab3170b2109ccdcf77b563ae7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b76829275ac28f211d96239c0b375119/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b76829275ac28f211d96239c0b375119/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/99f2bbc92fc4a75724c72c53a4ff635e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/99f2bbc92fc4a75724c72c53a4ff635e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/4f77002ff5c219e451385736491aefef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/4f77002ff5c219e451385736491aefef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e04b60c1f4b356bfd25d5a53284698cc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e04b60c1f4b356bfd25d5a53284698cc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dc24d3604e02a874aab66c886bbb1dfa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dc24d3604e02a874aab66c886bbb1dfa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/6f4f26dea75e82c9337f76734ced88fa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/6f4f26dea75e82c9337f76734ced88fa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6917284a6917023e150076691f688f2e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6917284a6917023e150076691f688f2e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ee1fafc5bebfa38668f4a99701019778/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/jey/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ee1fafc5bebfa38668f4a99701019778/AndroidManifest.xml:20:5-44
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jey/Desktop/ASProject/CameraAnim/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:12:22-68
+uses-feature#android.hardware.camera
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:16:9-57
+uses-feature#android.hardware.camera.front
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:18:5-20:36
+	android:required
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:20:9-33
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:19:9-53
+uses-feature#android.hardware.microphone
+ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:21:5-23:36
+	android:required
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:23:9-33
+	android:name
+		ADDED from [com.wonderkiln:camerakit:0.13.1] /Users/jey/.gradle/caches/transforms-1/files-1.1/camerakit-0.13.1.aar/2e7d78b2d0db8331358fcb2ecc56b991/AndroidManifest.xml:22:9-51

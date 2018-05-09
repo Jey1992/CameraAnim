@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fl_camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="130dp"
+            android:layout_marginTop="48dp">
+            <com.wonderkiln.camerakit.CameraView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/camera"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                app:ckCropOutput="true"
+                app:ckDoubleTapToToggleFacing="true"
+                app:ckFacing="back"
+                app:ckFlash="auto"
+                app:ckFocus="tapWithMarker"
+                app:ckJpegQuality="100"
+                app:ckMethod="standard"
+                app:ckVideoQuality="max1080p"
+                app:ckZoom="0.1" />
+
+        </FrameLayout>
+
+        <View
+            android:id="@+id/blackCover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:visibility="gone"/>
+
+        <include layout="@layout/camera_top"/>
+
+        <FrameLayout
+            android:id="@+id/fl_controls_container"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="bottom"
+            android:background="@color/color_000000">
+            <cn.jey1016.cameraanim.view.CameraControls
+                android:id="@+id/camera_controls"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="7dp"
+                app:camera="@id/camera"
+                app:cover="@id/coverImage" />
+        </FrameLayout>
+
+        <include layout="@layout/child_cover_layout"/>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/title_bar_container_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    tools:ignore="RtlHardcoded,ContentDescription,Deprecated,RelativeOverlap">
+
+    <View
+        android:id="@+id/pop_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_000000"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/abc"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_000000">
+
+        <ImageView
+            android:id="@+id/facing_button"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:padding="12dp"
+            android:src="@mipmap/ic_facing_change" />
+
+        <ImageView
+            android:id="@+id/flash_button"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/facing_button"
+            android:padding="12dp"
+            android:src="@mipmap/ic_flash_auto" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
