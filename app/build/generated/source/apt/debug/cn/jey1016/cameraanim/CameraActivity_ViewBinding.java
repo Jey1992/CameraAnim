@@ -19,9 +19,9 @@ import java.lang.Override;
 public class CameraActivity_ViewBinding implements Unbinder {
   private CameraActivity target;
 
-  private View view2131165258;
+  private View view2131165260;
 
-  private View view2131165251;
+  private View view2131165253;
 
   private View view2131165225;
 
@@ -39,7 +39,7 @@ public class CameraActivity_ViewBinding implements Unbinder {
     target.topbar = Utils.findRequiredViewAsType(source, R.id.title_bar_container_ll, "field 'topbar'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.flash_button, "field 'flashButton' and method 'onViewClicked'");
     target.flashButton = Utils.castView(view, R.id.flash_button, "field 'flashButton'", ImageView.class);
-    view2131165258 = view;
+    view2131165260 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -52,12 +52,14 @@ public class CameraActivity_ViewBinding implements Unbinder {
     target.fl_controls_container = Utils.findRequiredViewAsType(source, R.id.fl_controls_container, "field 'fl_controls_container'", FrameLayout.class);
     target.fl_camera = Utils.findRequiredViewAsType(source, R.id.fl_camera, "field 'fl_camera'", FrameLayout.class);
     target.coverImage = Utils.findRequiredViewAsType(source, R.id.coverImage, "field 'coverImage'", ImageView.class);
+    target.coverImage1 = Utils.findRequiredViewAsType(source, R.id.coverImage1, "field 'coverImage1'", ImageView.class);
+    target.coverImageContainer = Utils.findRequiredViewAsType(source, R.id.coverImageContainer, "field 'coverImageContainer'", LinearLayout.class);
     target.ivShareTarget = Utils.findRequiredViewAsType(source, R.id.iv_share_target, "field 'ivShareTarget'", ImageView.class);
     target.tvShareTarget = Utils.findRequiredViewAsType(source, R.id.tv_share_target, "field 'tvShareTarget'", TextView.class);
     target.tvShareTargetDay = Utils.findRequiredViewAsType(source, R.id.tv_share_target_day, "field 'tvShareTargetDay'", TextView.class);
     target.tvShareTargetInsistDay = Utils.findRequiredViewAsType(source, R.id.tv_share_target_insist_day, "field 'tvShareTargetInsistDay'", TextView.class);
     view = Utils.findRequiredView(source, R.id.facing_button, "method 'onViewClicked'");
-    view2131165251 = view;
+    view2131165253 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -90,15 +92,17 @@ public class CameraActivity_ViewBinding implements Unbinder {
     target.fl_controls_container = null;
     target.fl_camera = null;
     target.coverImage = null;
+    target.coverImage1 = null;
+    target.coverImageContainer = null;
     target.ivShareTarget = null;
     target.tvShareTarget = null;
     target.tvShareTargetDay = null;
     target.tvShareTargetInsistDay = null;
 
-    view2131165258.setOnClickListener(null);
-    view2131165258 = null;
-    view2131165251.setOnClickListener(null);
-    view2131165251 = null;
+    view2131165260.setOnClickListener(null);
+    view2131165260 = null;
+    view2131165253.setOnClickListener(null);
+    view2131165253 = null;
     view2131165225.setOnClickListener(null);
     view2131165225 = null;
   }

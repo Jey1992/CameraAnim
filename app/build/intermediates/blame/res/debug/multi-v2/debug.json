@@ -367,22 +367,6 @@
             ]
         },
         {
-            "outputFile": "/Users/jey/Desktop/ASProject/CameraAnim/app/build/intermediates/res/merged/debug/values-v23_values-v23.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/jey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4665ae51ec1a3e4f61a15cddf1424a1e/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/jey/Desktop/ASProject/CameraAnim/app/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat",
             "map": [
                 {
@@ -410,6 +394,22 @@
                         "startOffsets": "105,225,328,444,530,638,756,835,913,996,1102,1208,1306,1414,1519,1624,1793,1893",
                         "endColumns": "119,102,115,85,107,117,78,77,82,105,105,97,107,104,104,168,99,80",
                         "endOffsets": "220,323,439,525,633,751,830,908,991,1097,1203,1301,1409,1514,1619,1788,1888,1969"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/jey/Desktop/ASProject/CameraAnim/app/build/intermediates/res/merged/debug/values-v23_values-v23.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/jey/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4665ae51ec1a3e4f61a15cddf1424a1e/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
                     }
                 }
             ]

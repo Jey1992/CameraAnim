@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -20,6 +21,7 @@ import android.view.WindowManager;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.UUID;
 
@@ -174,5 +176,102 @@ public class CommonFunction {
         // 获得状态栏高度
         int resourceId = context.getResources().getIdentifier("status_bar_height", "dimen", "android");
         return context.getResources().getDimensionPixelSize(resourceId);
+    }
+
+    /**
+     * 通过资源id转化成Bitmap
+     *
+     * @param context
+     * @param resId
+     * @return
+     */
+    public static Bitmap readBitmapById(Context context, int resId)
+    {
+        BitmapFactory.Options opt = new BitmapFactory.Options();
+        opt.inPreferredConfig = Bitmap.Config.RGB_565;
+        opt.inPurgeable = true;
+        opt.inInputShareable = true;
+
+        InputStream is = context.getResources().openRawResource(resId);
+        return BitmapFactory.decodeStream(is, null, opt);
+    }
+
+    /**
+     * 按长方形裁切图片
+     *
+     * @param bitmap
+     * @return
+     */
+    public static Bitmap imageCropWithRect(Bitmap bitmap) {
+        if (bitmap == null) {
+            return null;
+        }
+
+        int with = bitmap.getWidth(); // 得到图片的宽，高
+
+        int nw, nh, retX;
+        nw = with / 2;
+        nh = with;
+        retX = with / 2;
+
+        Bitmap bmp = Bitmap.createBitmap(bitmap, 0, 0, nw, nh, null,
+                false);
+        if (bitmap != null && !bitmap.equals(bmp) && !bitmap.isRecycled()) {
+            bitmap.recycle();
+        }
+        return bmp;
+    }
+
+    /**
+     * 按长方形裁切图片
+     *
+     * @param bitmap
+     * @return
+     */
+    public static Bitmap imageCropWithRect1(Bitmap bitmap) {
+        if (bitmap == null) {
+            return null;
+        }
+
+        int with = bitmap.getWidth(); // 得到图片的宽，高
+
+        int nw, nh, retX;
+        nw = with / 2;
+        nh = with;
+        retX = with / 2;
+
+        Bitmap bmp = Bitmap.createBitmap(bitmap, retX, 0, nw, nh, null,
+                false);
+        if (bitmap != null && !bitmap.equals(bmp) && !bitmap.isRecycled()) {
+            bitmap.recycle();
+        }
+        return bmp;
+    }
+
+    public static Bitmap[] getCropBitmaps(Bitmap bitmap){
+        if (bitmap == null) {
+            return null;
+        }
+
+        int with = bitmap.getWidth(); // 得到图片的宽，高
+        int height = bitmap.getHeight();
+
+        int nw, nh, retX;
+        nw = with / 2;
+        nh = height;
+        retX = with / 2;
+
+        Bitmap[] bitmaps = new Bitmap[2];
+        Bitmap bmp = Bitmap.createBitmap(bitmap, 0, 0, nw, nh, null,
+                false);
+        Bitmap bmp1 = Bitmap.createBitmap(bitmap, retX, 0, nw, nh, null,
+                false);
+
+        bitmaps[0] = bmp;
+        bitmaps[1] = bmp1;
+        if (bitmap != null && !bitmap.equals(bmp) && !bitmap.isRecycled()) {
+            bitmap.recycle();
+        }
+        return bitmaps;
     }
 }

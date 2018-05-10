@@ -4,14 +4,34 @@
     android:id="@+id/fl_cover_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <ImageView
-        android:id="@+id/coverImage"
+    <LinearLayout
+        android:id="@+id/coverImageContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="-5dp"
-        android:layout_marginLeft="-5dp"
-        android:layout_marginRight="-5dp"
-        android:scaleType="fitXY"/>
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/transparent">
+        <ImageView
+            android:id="@+id/coverImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:scaleType="fitXY"/>
+        <ImageView
+            android:id="@+id/coverImage1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+
     <include layout="@layout/tint_cover_view"/>
 
 </FrameLayout>

@@ -19,13 +19,13 @@ import java.lang.Override;
 public class CameraControls_ViewBinding implements Unbinder {
   private CameraControls target;
 
-  private View view2131165304;
+  private View view2131165306;
 
   private View view2131165225;
 
   private View view2131165226;
 
-  private View view2131165312;
+  private View view2131165314;
 
   private View view2131165216;
 
@@ -42,7 +42,7 @@ public class CameraControls_ViewBinding implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.picture_preview, "field 'picturePreview' and method 'onTouchBack'");
     target.picturePreview = Utils.castView(view, R.id.picture_preview, "field 'picturePreview'", ImageView.class);
-    view2131165304 = view;
+    view2131165306 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -70,7 +70,7 @@ public class CameraControls_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.recapture, "field 'recapture' and method 'onTouchBack'");
     target.recapture = Utils.castView(view, R.id.recapture, "field 'recapture'", TextView.class);
-    view2131165312 = view;
+    view2131165314 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -100,14 +100,14 @@ public class CameraControls_ViewBinding implements Unbinder {
     target.captureSuc = null;
     target.recapture = null;
 
-    view2131165304.setOnClickListener(null);
-    view2131165304 = null;
+    view2131165306.setOnClickListener(null);
+    view2131165306 = null;
     view2131165225.setOnTouchListener(null);
     view2131165225 = null;
     view2131165226.setOnClickListener(null);
     view2131165226 = null;
-    view2131165312.setOnClickListener(null);
-    view2131165312 = null;
+    view2131165314.setOnClickListener(null);
+    view2131165314 = null;
     view2131165216.setOnClickListener(null);
     view2131165216 = null;
   }

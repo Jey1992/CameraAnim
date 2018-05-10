@@ -72,6 +72,10 @@ public class CameraActivity extends Activity {
 
     @BindView(R.id.coverImage)
     ImageView coverImage;
+    @BindView(R.id.coverImage1)
+    ImageView coverImage1;
+    @BindView(R.id.coverImageContainer)
+    LinearLayout coverImageContainer;
     @BindView(R.id.iv_share_target)
     ImageView ivShareTarget;
     @BindView(R.id.tv_share_target)
@@ -127,13 +131,11 @@ public class CameraActivity extends Activity {
     private void inital(){
         blackCover.setVisibility(View.GONE);
         // bind水印数据
-        if (bitmap!=null) coverImage.setImageBitmap(bitmap);
-        else Glide.with(CameraActivity.this)
-                .load(imageUrl)
-                .error(R.color.color_FFD166)
-                .dontAnimate()
-                .centerCrop()
-                .into(coverImage);
+        if (bitmap!=null) {
+            Bitmap[] bitmaps = CommonFunction.getCropBitmaps(bitmap);
+            coverImage.setImageBitmap(bitmaps[0]);
+            coverImage1.setImageBitmap(bitmaps[1]);
+        }
         // 设置 水印和覆盖图 的位置，使其和上一个界面中图片的位置重合
         mRect = getIntent().getSourceBounds();
         scale = 1f * CommonFunction.getScreenWidth(this) / mRect.width();
@@ -216,8 +218,14 @@ public class CameraActivity extends Activity {
                     @Override
                     public void run() {
                         isAnim = false;
-                        coverImage.startAnimation(
-                                OptAnimationLoader.loadAnimation(CameraActivity.this, R.anim.camera_img_exit_anim));
+                        coverImage.animate()
+                                .setDuration(500)
+                                .translationX(-bitmap.getWidth()/2)
+                                .start();
+                        coverImage1.animate()
+                                .setDuration(500)
+                                .translationX(bitmap.getWidth()/2)
+                                .start();
                         fl_camera.setVisibility(View.VISIBLE);
                         if (!cameraView.isStarted()){
                             // 启动相机
@@ -226,15 +234,17 @@ public class CameraActivity extends Activity {
                     }
                 })
                 .start();
+        // 底部视图向上平移
         fl_controls_container.startAnimation(OptAnimationLoader.loadAnimation(this, R.anim.camera_slip_enter));
+        // 头部视图向下平移
         topbar.startAnimation(OptAnimationLoader.loadAnimation(this, R.anim.camera_top_slip_in));
         // 动画结束后隐藏coverImage
-        coverImage.postDelayed(new Runnable() {
+        coverImageContainer.postDelayed(new Runnable() {
             @Override
             public void run() {
-                coverImage.setVisibility(View.GONE);
+                coverImageContainer.setVisibility(View.GONE);
             }
-        },ANIMDURATION+300);
+        },ANIMDURATION+500);
     }
 
     /**
@@ -256,6 +266,7 @@ public class CameraActivity extends Activity {
                     @Override
                     public void run() {
                         finish();
+                        // 屏蔽activity默认跳转动画
                         overridePendingTransition(0,0);
                     }
                 })
